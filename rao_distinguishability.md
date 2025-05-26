@@ -1,5 +1,7 @@
 # Rao Distance in Statistical Distinguishability
 
+### Brendan Lucas
+
 ## What is Rao distance really?
 Given a vector of $k$ parameters $\vec{\theta} = (\theta_1, \ldots, \theta_k)\in\Theta(k)$,
 

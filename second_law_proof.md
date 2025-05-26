@@ -1,4 +1,6 @@
 # Five axioms are required for a proof of the second law of thermodynamics that uses the Kullback-Leibler divergence.
+
+## Brendan Lucas
 Consider a physical universe with random, discrete, generalized[^1] energy $E$. The second law follows from these five axioms:
 
 **Axiom 1.** Energy is a discrete random variable $E$ in a sample space $\mathcal{E}\ni E_i\forall i$ with marginal probability $p(E)$[^2].
