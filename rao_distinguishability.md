@@ -36,7 +36,7 @@ $$ds^2 = \mathcal{I}_{\mathcal{F}\mu\nu}d\theta^{\mu}d\theta^{\nu},$$
 and recognize $ds=\Delta \delta$, so the line element in $\mathcal{P}$ is the standard deviation of the differential element $\delta$.
 
 The Rao distance $\mathcal{D}_{\mathcal{R}}(\vec{\theta}_0,\vec{\theta}_f)$ between initial and final parameter vectors is simply the integral over the line element, 
-$$\begin{align}
+\begin{align}
 \mathcal{D}_{\mathcal{R}}(\vec{\theta}_0, \vec{\theta}_f) = \int_{p(x|\vec{\theta}_0)}^{p(x|\vec{\theta}_f)}ds&=\int_{\vec{\theta}_0}^{\vec{\theta}_f}\sqrt{\mathcal{I}_{\mathcal{F}\mu\nu}d\theta^{\mu}d\theta^{\nu}}\\
 &=\int_{\vec{\theta}_0}^{\vec{\theta}_f}\Delta\delta
 \end{align}
