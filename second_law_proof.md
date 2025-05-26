@@ -3,7 +3,7 @@
 ## Brendan Lucas
 Consider a physical universe with random, discrete, generalized[^1] energy $E$. The second law follows from these five axioms:
 
-**Axiom 1.** Energy is a discrete random variable $E$ in a sample space $\mathcal{E}\ni E_i\forall i$ with marginal probability $p(E)$[^2].
+**Axiom 1.** Energy is a discrete random variable $E$ in a sample space $\mathcal{E}\ni E_i\forall i$ with marginal probability $p(E)$.[^2]
 
 **Axiom 2.**  The expected energy $\langle E \rangle=\sum_i p_i E_i$ of the universe is a constant.
 
