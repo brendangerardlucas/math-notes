@@ -21,13 +21,13 @@ We show the variance $\Delta\delta^2$ to be a  distance measure on $\mathcal{P}$
                      \therefore\quad \Delta\delta^2 &= \left\langle \left(\sum_{i=1}^k\frac{\partial \ln p}{\partial \theta_i}d\theta_i \right)\left(\sum_{j=1}^k\frac{\partial \ln p}{\partial \theta_j}d\theta_j  \right)\right\rangle \\
                     &= \left\langle\sum_{i=1}^k\sum_{j=1}^k\left(\frac{\partial \ln p}{\partial \theta_i} \right)\left(\frac{\partial \ln p}{\partial \theta_j} \right)d\theta_i d\theta_j \right\rangle \\
                     &= \left\langle\sum_{i=1}^k\sum_{j=1}^k\frac{1}{p^2}\left(\frac{\partial p}{\partial \theta_i} \right)\left(\frac{\partial p}{\partial \theta_j} \right)d\theta_i d\theta_j \right\rangle \\
-                    \text{For convenience, say } &x \text{ has } N \text{ states indexed } \omega: \\
+                    \text{For convenience, say } &x \text{ has } N \text{ states indexed } \omega, \\ \quad\text{with } &\frac{\partial p}{\partial \theta_i}d\theta_i = p(x_w|\vec{\theta}')-p(x_w|\vec{\theta}): \\
                     \therefore\quad \Delta \delta^2 &= \sum_{\omega=1}^N\frac{[p(x_\omega|\vec{\theta}')-p(x_\omega|\vec{\theta})]^2}{p(x_{\omega}|\vec{\theta})}
 \end{align}
 
 Define the Fisher information matrix
 
-$$[\mathcal{I}_{\mathcal{F}}]_{ij} =\left[\left(\frac{\partial \ln p}{\partial \theta_i} \right)\left(\frac{\partial \ln p}{\partial \theta_j} \right) \right],$$
+$$[\mathcal{I}_{\mathcal{F}}]_{ij} =\left[\left\langle\left(\frac{\partial \ln p}{\partial \theta_i} \right)\left(\frac{\partial \ln p}{\partial \theta_j} \right)\right\rangle \right],$$
 
 so Equation 5 can be written as an inner product 
 
