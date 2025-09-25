@@ -1,7 +1,7 @@
 # Simple proof of the second law of thermodynamics that uses the Kullback-Leibler divergence.
 
 ## Brendan Lucas
-Consider an isolated thermodynamic system with a random discrete energy variable $E$. The first law of thermodynamics states that the internal energy $U = \langle E \rangle = \sum_i p_i E_i$ is constant in an isolated system. The system may start in a nonequilibrium state, but it approaches an equilibrium state $p_i = \frac{e^{-\beta E_i}}{\sum_j e^{-\beta E_j}}$. We consider the set of discrete energy levels $\mathcal{E}\ni E_i$ not to change in time, and the temperature of the system to be a constant $\beta = k_B T$.
+Consider an isolated thermodynamic system with a random discrete energy variable $E$. The first law of thermodynamics states that the internal energy $U = \langle E \rangle = \sum_i p_i E_i$ is constant in an isolated system. The system may start in a nonequilibrium state, but it approaches an equilibrium state $p_i = \frac{e^{-\beta E_i}}{\sum_j e^{-\beta E_j}}$. We consider the set of discrete energy levels $\mathcal{E}\ni E_i$ not to change in time, and the temperature of the system to be a constant $\beta = 1/k_B T$.
 
 $p_{\text{now}}$ is our model of the system's energy now, and $p_{\text{eq}}$ is the unique marginal of $\mathcal{E}$'s equilibrium; $p_{\text{eq}}$ is "the heat death of the universe." $\beta=1/k_BT$ is inverse temperature, or coldness. $p_{\text{now}}$ is compared against $p_{\text{eq}}$ with the Kullback-Leibler divergence (KLD). $p_{\text{now}}$ can be any marginal over $\mathcal{E}$, 1. Define KLD:
 
